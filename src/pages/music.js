@@ -1,10 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
 
-import JonCorbin from "../images/jon-corbin.jpg"
-
 export default () => (
     <Layout>
-        <img src={JonCorbin} alt="Jon Corbin"/>
+        <h1>Music</h1>
+        <p>Jon Corbin's music page is coming soon!</p>
     </Layout>
 )
