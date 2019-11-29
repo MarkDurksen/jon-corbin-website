@@ -5,7 +5,7 @@ export default () => (
     <Layout>
         <h1>Bookings and Inquiries</h1>
         <form 
-            name="contact"
+            name="contact-form"
             method="post"
             action="#"
             data-netlify="true"
