@@ -7,13 +7,24 @@ export default () => (
         <form 
             name="contact"
             method="post"
+            action="#"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
         >
-            <input name="name" placeholder="Your Name" type="text"/>
-            <input name="email" placeholder="name@example.com" type="email"/>
-            <textarea name="message" />
-            <button>Send</button>
+            <label>
+                Name
+                <input type="text" name="name" id="name" />
+            </label>
+            <label>
+                Email
+                <input type="email" name="email" id="email" />
+            </label>
+            <label>
+                Message
+                <textarea name="message" id="message" rows="5" />
+            </label>
+            <button type="submit">Send</button>
+            <input type="reset" value="Clear" />
         </form>
     </Layout>
 )
