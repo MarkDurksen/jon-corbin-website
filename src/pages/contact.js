@@ -3,7 +3,8 @@ import Layout from "../components/layout"
 
 export default () => (
     <Layout>
-        <h1>Bookings and Inquiries</h1>
+        <h1>Contact</h1>
+        <p>For bookings and inquires please fill out the form below.</p>
         <form 
             name="contact"
             method="post"
