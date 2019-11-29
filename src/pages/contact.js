@@ -5,7 +5,7 @@ export default () => (
     <Layout>
         <h1>Bookings and Inquiries</h1>
         <form 
-            name="contact"
+            name="contact-form-1"
             method="post"
             action="#"
             data-netlify="true"
@@ -23,7 +23,7 @@ export default () => (
                 Message
                 <textarea name="message" id="message" rows="5" />
             </label>
-            <button>Send</button>
+            <button type="submit">Send</button>
             <input type="reset" value="Clear" />
         </form>
     </Layout>
