@@ -7,7 +7,7 @@ export default () => (
         <form 
             name="contact-form"
             method="post"
-            action="#"
+            // action="#"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
         >
