@@ -5,9 +5,8 @@ export default () => (
     <Layout>
         <h1>Bookings and Inquiries</h1>
         <form 
-            name="contact-form-1"
+            name="contact"
             method="post"
-            action="/thank-you"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
         >
@@ -23,6 +22,7 @@ export default () => (
                 Message
                 <textarea name="message" id="message" rows="5" />
             </label>
+            <input type="hidden" name="bot-field"/>
             <button type="submit">Send</button>
             <input type="reset" value="Clear" />
         </form>
